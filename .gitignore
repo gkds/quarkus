@@ -1,0 +1,32 @@
+# --- Compilations et artefacts Maven ---
+target/
+*.jar
+*.war
+*.ear
+*.nar
+*.car
+*.jack
+*.jasp
+
+# --- Fichiers générés par les IDE (Eclipse, IntelliJ, NetBeans) ---
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+
+# --- Logs et fichiers temporaires ---
+*.log
+log/
+logs/
+.tmp/
+.temp/
+
+# --- Variables d'environnement et secrets ---
+.env
+.env.local
